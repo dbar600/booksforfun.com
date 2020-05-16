@@ -1,0 +1,47 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+
+#wrapper{
+  display:grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  gird-emplate-row: 500px;
+  grid-gap: 10px;
+  justify-items: center
+}
+
+
+#seacrhTerm{
+  color: red;
+  font-size: 25px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+#search{
+  color: red;
+  font-size: 25px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+body{
+  Background: url("https://thumbs.dreamstime.com/b/peaceful-place-pa-khong-lake-morning-light-summer-season-soft-mist-covers-mountains-backgrounds-scenic-landscape-140480519.jpg")
+}
+    
+
+#content{
+  color: red;
+  font-size: 25px;
+  font-family:Arial, Helvetica, sans-serif;
+}
